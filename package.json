@@ -1,0 +1,33 @@
+{
+  "name": "hook",
+  "version": "0.0.0",
+  "description": "Hapi plugin for routing webhooks to handlers",
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com>",
+  "contributors": [],
+  "repository": "leadgumshoe/hook",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha test/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@leadgumshoe/eslint-config": "^0.4.0",
+    "eslint": "^2.0.0",
+    "expect": "^1.14.0",
+    "mocha": "^2.4.5"
+  },
+  "keywords": [
+    "webhook",
+    "hapi"
+  ]
+}

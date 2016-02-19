@@ -1,0 +1,3 @@
+{
+  "extends": "@leadgumshoe/eslint-config/es5"
+}
