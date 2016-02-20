@@ -19,7 +19,11 @@
     "pretest": "npm run lint",
     "test": "mocha test/"
   },
-  "dependencies": {},
+  "dependencies": {
+    "boom": "^2.10.1",
+    "lodash.assign": "^4.0.3",
+    "when": "^3.7.7"
+  },
   "devDependencies": {
     "@leadgumshoe/eslint-config": "^0.4.0",
     "eslint": "^2.0.0",
