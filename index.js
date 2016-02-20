@@ -27,7 +27,7 @@ function handler(route, opts){
       var injectOptions = {
         method: request.method,
         payload: payload,
-        allowInternal: !!options.allowInternal
+        allowInternals: !!options.allowInternals
       };
 
       if (typeof req === 'string') {
