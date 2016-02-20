@@ -21,6 +21,7 @@ function handler(route, opts){
 
     function inject(payload, req){
       if (req == null) {
+        reply();
         return;
       }
 
