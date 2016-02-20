@@ -53,7 +53,7 @@ function handler(route, opts){
 
     var webhookPayload = when(options.webhook(request)).fold(defaultValue, request);
     var requestOptions = webhookPayload.then(options.mapRequest);
-    requestOptions.fold(inject, webhookPayload);
+    requestOptions.fold(inject, webhookPayload).catch(reply);
   }
 
   return hookHandler;
