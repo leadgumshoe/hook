@@ -1,6 +1,6 @@
 {
   "name": "@leadgumshoe/hook",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Hapi plugin for routing webhooks to handlers",
   "author": "Blaine Bublitz <blaine.bublitz@gmail.com>",
   "contributors": [],
